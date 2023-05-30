@@ -1,0 +1,36 @@
+/* FOOTER */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* ajusta el alto según tus necesidades */
+  padding: 1rem;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+div#footer-content a {
+  color: #fff;
+}
+
+div#footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#footer-content > span:last-of-type {
+  font-size: 0.75rem;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+div#footer-content > span:last-of-type:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+  cursor: pointer;
+}

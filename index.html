@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficial web of NixP2P, by Denis.">
+    <link rel="icon" href="./src/logos/3.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2082b56afe.js" crossorigin="anonymous"></script>
+    <title>NixP2P - PaySafeCard a PayPal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+
+<body>
+    <main>
+        <!-- Header, parte principal de arriba. -->
+        <header>
+            <nav>
+                <!-- <div class="logo">
+                    <img href="#" src="./src/logos/3.png" alt="NixScripts logo">
+                </div> -->
+
+                <ul class="menu">
+                    <li><a href="#"><img class="logo" href="./index.html" src="./src/logos/3.png"
+                                alt="NixScripts logo"></a></li>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#stats">Estadísticas</a></li>
+                    <li><a href="#comisiones">Comisiones</a></li>
+                    <li><a href="#bg-comisiones">Cambiar</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="https://nixcd.github.io/" target="_blank">Contacto Directo</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <!-- HOME -->
+        <section id="home">
+            <div id="left">
+                <!-- <span>(Nota borrar) Hay que crear un canal dedicadoa  la tienda de Scripts donde podamos subir todas los videos mostrandolos. Para poner los lnks con la etiqueta video en el home page. </span> -->
+                <span>¡Bienvenido a NixP2P-CHANGE!</span>
+                <p class="home_description">Servicio dedicado a cambiar códigos de PaySafeCard a PayPal con un solo
+                    click.<br>¡Rapido y Seguro!</p>
+                <a id="change-button" class="button" href="#bg-comisiones">INICIAR CAMBIO <i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div id="image">
+                <img src="./src/phones.png" alt="">
+            </div>
+
+        </section>
+
+        <section id="stats">
+            <span>Estadísticas</span>
+            <div id="users">
+                <i class="fa-solid fa-user"></i>
+                <span>456</span>
+                <span>Usuarios atendidos</span>
+            </div>
+            <div id="changes">
+                <i class="fa-solid fa-wallet"></i>
+                <span>750</span>
+                <span>Cambios totales </span>
+            </div>
+        </section>
+
+
+        <div id="bg-comisiones">
+            <section id="comisiones">
+                <span class="title-comisiones">Calcular Comisiones</span>
+
+                <div id="inputs-comisiones">
+                    <div id="deposit">
+                        <i class="fa-solid fa-money-bill-transfer animated"></i> <span>Cantidad a cambiar</span>
+                        <input id="depositmoney" type="number" placeholder="Depositar">
+                    </div>
+
+                    <div id="get">
+                        <i class="fa-brands fa-paypal animated"></i> <span>Dinero a recibir</span>
+                        <input id="getmoney" type="text" placeholder="€" readonly="readonly">
+                    </div>
+
+                </div>
+                <button id="calculate_btn">Calcular</button>
+            </section>
+        </div>
+
+        <div id="bg-comisiones">
+            <section id="comisiones">
+                <span id="contacto" class="title-comisiones">CONTACTO</span>
+                <span style="font-size: 2rem;">¿Quieres cambiar saldo?</span>
+                <span>Contactanos a través de nix2p2@business.es o en nuestro servidor de <a style="color: #FFF"
+                        href="">Discord.</a></span>
+            </section>
+        </div>
+
+
+        <button id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div id="footer-content">
+            <span>Todos los derechos reservados © 2023 NixP2P</span>
+            <span><a href="https://nixcd.github.io/" rel="noopener noreferrer" target="_blank">deniscdev</a></span>
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="https://kit.fontawesome.com/2082b56afe.js" crossorigin="anonymous"></script>
+    <script src="./js/scrollbtn.js"></script>
+    <script src="./js/coverimage.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/comisiones.js"></script>
+</body>
+
+</html>
